@@ -1,0 +1,63 @@
+#boarder{
+    border:10px solid black;
+    display:flex;
+    width:415px;
+    border-radius: 10px;
+}
+
+#container{
+    width:100%;
+    height:600px;
+    display:grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 90px) ;
+    gap:5px;
+    background-color: #2a2d2e;
+    
+   
+}
+
+#display{
+    grid-column: 1/-1;
+    border: 3px solid black;
+    color: #fc97ef;
+    background-color: #595d5f ;
+}
+
+#zero{
+    grid-column: 1/3;
+}
+
+button{
+    border-radius: 50%;
+    font-size: large;
+    color: #00e1db;
+    background-color: #335862;
+    border-color: transparent;
+    font-weight: bold;
+}
+
+#zero{
+    border-radius: 25% / 50%;   
+}
+
+.operator{
+    color: #fc97ef;
+}
+
+#sign{
+    color: #fc97ef;
+}
+
+#percent{
+    color: #fc97ef;
+}
+
+#clear{
+    color: red;
+}
+
+#equal{
+    color:white;
+    background-color: #ed50d6;
+}
