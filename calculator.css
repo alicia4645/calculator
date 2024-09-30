@@ -1,3 +1,7 @@
+body{
+    display: flex;
+    justify-content: center; 
+}
 #boarder{
     border:10px solid black;
     display:flex;
@@ -22,6 +26,8 @@
     border: 3px solid black;
     color: #fc97ef;
     background-color: #595d5f ;
+    font-size: 40px;
+    text-align: right;
 }
 
 #zero{
